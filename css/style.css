@@ -17,20 +17,24 @@ header{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
+    padding: 5px;
 }
 
 header i{
     background-color: rgb(73, 73, 73);
     padding: 6px 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 header i>span{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:600;
 
 }
-
+header i:first-child{
+    margin-right: 5px;
+}
 /* main */
 main{
      /* height: 100% */
@@ -76,7 +80,7 @@ footer{
 
 
 /*debug*/
-.debug header,footer{
+.debug footer{
     border:1px solid white;
 
 }
