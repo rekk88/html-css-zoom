@@ -81,15 +81,30 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+footer .sx,.dx{
+    flex-grow: 1;
+    /* display: flex;
+    flex-direction: column; */
+}
+footer .center{
+    flex-grow: 2;
+}
 
+footer .sx div{
+    /* display: inline-block; */
+}
 
+footer .sx .fa-microphone::before{
+    font-size: 35px;
+}
 /*debug*/
 .debug footer{
     border:1px solid white;
 
 }
-.debug footer div{
+.debug footer>div{
     background-color: cadetblue;
     height: 100%;
-    width: 100px;
+    flex-basis: 100px;
+    border: 1px solid white;
 }
