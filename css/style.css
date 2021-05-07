@@ -35,20 +35,22 @@ header i>span{
 header i:first-child{
     margin-right: 5px;
 }
+
+
 /* main */
 main{
      /* height: 100% */
      height: calc(100vh - 180px); /*view height - il tot di footer + header + margini*/
 }
 .gallery{
-    margin: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 100%;
     /* overflow: auto; funziona sia cosi che con -y */
     overflow-y: auto;
-    /* height: 1000px; */
-    height: 100%;
+    margin: 5px;
+    margin-top: 0px;
 }
 
 .user{
@@ -76,6 +78,8 @@ main{
 
 footer{
     height: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -83,4 +87,9 @@ footer{
 .debug footer{
     border:1px solid white;
 
+}
+.debug footer div{
+    background-color: cadetblue;
+    height: 100%;
+    width: 100px;
 }
