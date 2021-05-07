@@ -31,6 +31,31 @@ header i>span{
 
 }
 
+/* main */
+
+.gallery{
+    margin: 5px;
+}
+
+.user{
+    height: 150px;
+    /* width: 100%; */
+    width: calc(100% / 6);
+    position: relative;
+}
+.user>span{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.user img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+
 
 /*debug*/
 .debug header{
