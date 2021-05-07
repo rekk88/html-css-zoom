@@ -86,7 +86,8 @@ footer{
 footer #arrow{
     margin: 0px 25px;
     font-size: 16px;
-    line-height: 100px;
+    /* line-height: 100px;  line height ciao ciao */
+    align-self: center; /**/
 }
 
 footer .elemento{
@@ -94,6 +95,7 @@ footer .elemento{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
 }
 footer .elemento i{
     padding-bottom: 5px;
@@ -104,10 +106,7 @@ footer .fas:not(i.fa-chevron.up){
 
 
 footer .sx,.dx{
-    /* flex-grow: 1; */
     display: flex;
-    /* align-content: center; */
-    /* flex-direction: column;  */
 }
 footer .center{
     display: flex;
@@ -139,6 +138,7 @@ footer .dx{
 footer .dx>div{
     text-align: center;
     color: red;
+    cursor: pointer;
     /* line-height: 100px; */
 }
 
