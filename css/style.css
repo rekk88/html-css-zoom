@@ -40,7 +40,9 @@ main{
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
-    overflow: auto;
+    justify-content: center;
+    /* overflow: auto; funziona sia cosi che con -y */
+    overflow-y: auto;
     /* height: 1000px; */
     height: 100%;
 }
