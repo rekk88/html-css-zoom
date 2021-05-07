@@ -32,9 +32,16 @@ header i>span{
 }
 
 /* main */
-
+main{
+     /* height: 100% */
+}
 .gallery{
     margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    /* height: 1000px; */
+    height: calc(100vh - 150px);
 }
 
 .user{
@@ -42,6 +49,7 @@ header i>span{
     /* width: 100%; */
     width: calc(100% / 6);
     position: relative;
+    border: 3px solid black;
 }
 
 .user>span{ /*span microfono*/
@@ -57,10 +65,15 @@ header i>span{
     object-fit:cover;
 }
 
+/* footer */
+
+footer{
+    height: 100px;
+}
 
 
 /*debug*/
-.debug header{
+.debug header,footer{
     border:1px solid white;
 
 }
