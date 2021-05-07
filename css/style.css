@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*body*/
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* header */
+header{
+    height: 70px;
+    width: 100%;
+}
+
+header i{
+    background-color: rgb(73, 73, 73);
+    padding: 6px 5px;
+    border-radius: 5px;
+}
+header i>span{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+/*debug*/
+.debug header{
+    border:1px solid white;
+
+}
