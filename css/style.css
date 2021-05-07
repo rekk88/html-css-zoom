@@ -82,14 +82,37 @@ footer{
     justify-content: space-between;
     background-color: #131313;
 }
+
+footer #arrow{
+    margin: 0px 25px;
+    font-size: 16px;
+    line-height: 100px;
+}
+
+footer .elemento{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .fas:not(i.fa-chevron.up){
+    font-size: 32px;
+}
+
+
 footer .sx,.dx{
-    flex-grow: 1;
+    /* flex-grow: 1; */
     display: flex;
     /* align-content: center; */
     /* flex-direction: column;  */
 }
 footer .center{
-    flex-grow: 2;
+    display: flex;
+    flex-grow: 1;
+    /* align-content: center; argesgdgg.....cros-axis */
+    justify-content: center; /*questo va su main-axis!!!!!!!*/
+    /* flex-grow: 2; */
 }
 
 footer .sx{
@@ -97,42 +120,18 @@ footer .sx{
     padding-left: 15px;
 }
 
-footer .elemento{
-    display: flex;
-    /* align-content: center; */
-    justify-content: center;
-    flex-direction: column;
-    margin: 0px 10px;
-    /* margin-left: 5px; */
-    margin-right: 20px;
-}
 
-footer .microfono{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-footer .sx .fa-microphone::before{
-    font-size: 32px;
-}
 
-footer i.fa-chevron-up{
-    line-height: 100px;
-}
 
-footer .sx i.fa-chevron-up{
-  margin: 0px 25px;
-
-}
-/*debug*/
+/* .sx i.fa-chevron-up */
+/*debug   */
 .debug footer{
     /* border:1px solid white; */
 
 }
 .debug footer>div{
     /* background-color: cadetblue; */
-    height: 100%;
-    flex-basis: 100px;
+    /* height: 100%; */
+    flex-basis: 200px;
     border: 1px solid white;
 }
