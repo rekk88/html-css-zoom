@@ -95,7 +95,9 @@ footer .elemento{
     flex-direction: column;
     justify-content: center;
 }
-
+footer .elemento i{
+    padding-bottom: 5px;
+}
 footer .fas:not(i.fa-chevron.up){
     font-size: 32px;
 }
@@ -114,13 +116,31 @@ footer .center{
     justify-content: center; /*questo va su main-axis!!!!!!!*/
     /* flex-grow: 2; */
 }
-
+footer .center #arrow{
+    margin: 0px 20px;
+    
+}
+footer .center .elemento{
+    margin: 0px 10px;
+}
+footer .center .fa-share-square{
+    color: green;
+}
 footer .sx{
     /* display: inline-block; */
     padding-left: 15px;
 }
-
-
+footer .dx{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 85, 85);
+    flex-basis: 9%;
+}
+footer .dx>div{
+    text-align: center;
+    color: red;
+    /* line-height: 100px; */
+}
 
 
 /* .sx i.fa-chevron-up */
@@ -132,6 +152,6 @@ footer .sx{
 .debug footer>div{
     /* background-color: cadetblue; */
     /* height: 100%; */
-    flex-basis: 200px;
+    /* flex-basis: 200px; */
     border: 1px solid white;
 }
