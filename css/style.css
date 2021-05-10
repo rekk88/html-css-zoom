@@ -40,7 +40,7 @@ header i:first-child{
 /* main */
 main{
      /* height: 100% */
-     height: calc(100vh - 180px); /*view height - il tot di footer + header + margini*/
+     height: calc(100vh - 170px); /*view height - il tot di footer + header + margini*/
 }
 .gallery{
     display: flex;
